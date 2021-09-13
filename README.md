@@ -21,7 +21,6 @@
 <div id="TOC" role="doc-toc">
 <h1 id="toctitle">Contents</h1>
 <ul>
-<li><a href="#1-change-log"><span class="toc-section-number">1</span> Change Log<span></span></a></li>
 <li><a href="#2-the-task"><span class="toc-section-number">2</span> The Task<span></span></a>
 <ul>
 <li><a href="#21-definitions-gdwgdefinitions"><span class="toc-section-number">2.1</span> Definitions [gdwg.definitions]<span></span></a></li>
@@ -59,13 +58,7 @@
 <li><a href="#7-late-submission-policy"><span class="toc-section-number">7</span> Late Submission Policy<span></span></a></li>
 </ul>
 </div>
-<h1 data-number="1" id="change-log"><span class="header-section-number">1</span> Change Log<a href="#change-log" class="self-link"></a></h1>
 
-- **2021-07-14**: Replaced some member types of `iterator`, clarified usage of `value_type`, fixed some CMake issues
-- **2021-07-16**: Softened the restriction on edge heap memory duplication: _For each edge, you should avoid not using unnecessary additional memory wherever possible._
-- **2021-07-31**: Halved late penalty as per Webcms3 notice
-- **2021-07-31**: Changed "are pointing to elements" to "are pointing to the same elements"
-- **2021-07-31**: Updated the large code example for the correct insert into graph source code
 
 <h1 data-number="2" id="the-task"><span class="header-section-number">2</span> The Task<a href="#the-task" class="self-link"></a></h1>
 <p>Write a <code class="sourceCode default">graph</code> library type in C++, in <code class="sourceCode default">include/gdwg/graph.hpp</code>.</p>
